@@ -1,0 +1,40 @@
+{
+  "name": "capitec-spending-insights",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "typecheck": "tsc --noEmit",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "test": "vitest run --silent",
+    "docker:build": "docker build -t capitec-spending-insights .",
+    "docker:run": "docker run -d -p 3000:3000 --name capitec-spending-insights-container capitec-spending-insights",
+    "docker:stop": "docker stop capitec-spending-insights-container && docker rm capitec-spending-insights-container",
+    "docker:fresh": "pnpm docker:stop; pnpm docker:build && pnpm docker:run"
+  },
+  "dependencies": {
+    "@lucide/vue": "^1.53.0",
+    "nuxt": "^4.6.0",
+    "vue": "^3.5.43",
+    "vue-router": "^5.3.1"
+  },
+  "devDependencies": {
+    "@nuxt/fonts": "^0.14.0",
+    "@nuxt/test-utils": "^4.3.3",
+    "@types/node": "^26.6.5",
+    "happy-dom": "^20.14.6",
+    "sass": "^1.105.1",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.3",
+    "vue-tsc": "^3.3.12"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "@parcel/watcher",
+      "esbuild"
+    ]
+  }
+}

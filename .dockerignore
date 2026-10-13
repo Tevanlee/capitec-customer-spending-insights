@@ -1,0 +1,27 @@
+# Nuxt & Build outputs
+
+.nuxt
+.output
+dist
+.cache
+
+# Dependencies
+
+node_modules
+
+# Version Control
+
+.git
+.gitignore
+
+# Environment files & Secrets
+
+.env
+.env.\*
+!.env.example
+
+# Logs & Operating System junk
+
+\*.log
+.DS_Store
+Thumbs.db

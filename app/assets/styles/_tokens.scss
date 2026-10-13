@@ -1,0 +1,87 @@
+// Brand
+$brand-blue: #00486d;
+$brand-blue-hover: #003a57;
+$brand-blue-light: #e8f2f6;
+$brand-blue-muted: #c9dee7;
+
+$brand-red: #e63934;
+$brand-red-hover: #c92f2a;
+$brand-red-light: #fce9e8;
+
+// Light theme
+$light-background: #f6f8f9;
+$light-surface: #ffffff;
+$light-surface-subtle: #f0f4f6;
+
+$light-text: #10212b;
+$light-text-secondary: #52636d;
+$light-text-muted: #7a8991;
+
+$light-border: #dce4e8;
+$light-border-subtle: #e9eef1;
+
+// Dark theme
+$dark-background: #07171f;
+$dark-surface: #0d222c;
+$dark-surface-raised: #12303c;
+
+$dark-text: #f4f8fa;
+$dark-text-secondary: #b7c7ce;
+$dark-text-muted: #8299a3;
+
+$dark-border: #24404b;
+$dark-border-subtle: #19343f;
+
+// Dark theme interactive / brand states (Added)
+$dark-primary: #3b91b8;
+$dark-primary-hover: #54a6c9;
+$dark-primary-soft: #163d4d;
+
+$dark-accent: #f05a55;
+$dark-accent-hover: #f36e69;
+$dark-accent-soft: #472322;
+
+// Semantic
+$success: #2bb155;
+$success-light: #a0febe;
+
+$warning: #e4a74b;
+$warning-light: #fff5df;
+
+$danger: #f26464;
+$danger-light: #fdd3d1;
+
+$info: #00658d;
+$info-light: #e8f2f6;
+
+// Radius
+$radius-sm: 4px;
+$radius-md: 6px;
+$radius-lg: 10px;
+$radius-xl: 16px;
+
+// Spacing
+$space-1: 4px;
+$space-2: 6px;
+$space-3: 8px;
+$space-4: 10px;
+$space-5: 12px;
+$space-6: 16px;
+$space-7: 18px;
+$space-8: 20px;
+$space-9: 24px;
+$space-10: 32px;
+
+// Layout
+$sidebar-width: 260px;
+$sidebar-width-collapsed: 60px;
+$sidebar-link-min-height: 36px;
+$header-height: 70px;
+$page-max-width: 1600px;
+
+// Font
+$font-xl: 22px;
+$font-lg: 16px;
+$font-md: 13px;
+$font-sm: 11px;
+$font-xs: 8px;
