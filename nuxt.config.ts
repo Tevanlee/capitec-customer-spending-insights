@@ -26,6 +26,13 @@ export default defineNuxtConfig({
 
   app: {
     head: {
+      title: 'Customer Spending Insights',
+      meta: [
+        {
+          name: 'description',
+          content: 'Financial and spending insights overview.',
+        },
+      ],
       link: [{ rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }],
     },
   },
